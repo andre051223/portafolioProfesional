@@ -7,8 +7,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/portafolio_diego.css">
+    <link rel="stylesheet" href="css/style.css">
     <meta name="description" content="Portafolio profesional de Diego López - Desarrollador Web">
+    <link rel="icon" type="image/png" href="img/Diego-2.png">
 </head>
 <body>
     <!-- Navegación flotante -->
@@ -38,7 +39,7 @@
                     <div class="profile-card">
                         <div class="profile-avatar-wrapper">
                             <div class="avatar-container">
-                                <img src="img/Diego.png" alt="Diego López" class="profile-avatar">
+                                <img src="img/Diego-2.png" alt="Diego López" class="profile-avatar">
                                 <div class="country-flag">
                                     <img src="https://flagcdn.com/w80/co.png" alt="Colombia" class="flag-img">
                                 </div>
@@ -98,7 +99,7 @@
                             <div class="skill-item">
                                 <div class="skill-header">
                                     <span class="skill-name">Inglés</span>
-                                    <span class="skill-percentage">45%</span>
+                                    <span class="skill-percentage">50%</span>
                                 </div>
                                 <div class="skill-bar">
                                     <div class="skill-progress" style="width: 45%"></div>
@@ -192,17 +193,21 @@
                 <p class="section-subtitle">Mis trabajos destacados</p>
                 
                 <div class="projects-grid">
-                    <a href="platziPlatform.html" class="project-card-full">
-                        <div class="project-image">
-                            <img src="img/platziPlatform.png" alt="">
-                            <div class="project-placeholder">
-                                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                    <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-                                </svg>
+                    <div class="project-card-full">
+                        <a href="https://andre051223.github.io/Portafolio-Platzi/">
+                            <div class="project-image">
+                                <img src="img/platziPlatform.png" alt="">
+                                <div class="project-placeholder">
+                                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                                    </svg>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                         <div class="project-content">
-                            <h3 class="project-title">Platzi Platform</h3>
+                            <a href="https://andre051223.github.io/Portafolio-Platzi/" style="text-decoration: none; color: inherit;">
+                                <h3 class="project-title">Platzi Platform</h3>
+                            </a>
                             <p class="project-description">
                                 Interfaz grafica que contiene:
                                 <li>
@@ -223,8 +228,20 @@
                                 <span class="tag">CSS</span>
                                 <span class="tag">JavaScript</span>
                             </div>
+                            
+                            <!-- Botón Ver Proyecto -->
+                            <div style="text-align: center; margin-top: var(--spacing-md);">
+                                <a href="https://andre051223.github.io/Portafolio-Platzi/" class="cta-button cta-email">
+                                    Ver Proyecto
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M7 17L17 7"></path>
+                                        <path d="M7 7h10v10"></path>
+                                    </svg>
+                                </a>
+                            </div>
                         </div>
-                    </a>
+                        
+                    </div>
                     
                     <!--
                     <a href="#" class="project-card-full">
